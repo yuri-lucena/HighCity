@@ -1,35 +1,35 @@
 Config = {}
 
-Config.LogWebhook = 'https://discordapp.com/api/webhooks/727602550076997783/0sqKejHHt4kOUK8J3JQHylWK69n5Vm_qlkxHTSAiKRcMGF0sy9G9ctw2kQCB22RLhb4Y' -- Kendi Webhook'unuzu koymanuz lazım tüm loglar o kanala düşecektir!
-Config.AntiCheat = true -- Çok amaçlı Koruma Kapamanızı önermeyiz!
-Config.AntiGodmode = false -- GodMode açan hileyi yakalar bunu bir admin yapsa bile yaklanır!
-Config.AntiSpectate = true -- Spectate Atan Hileyi Yakalar.
-Config.AcStopProtection = true -- AntiCheatin bypasslanmasını engeller.
-Config.ResourceStartCheck = true -- Menü inject edilir ise yakalar.
-Config.AntiBlips = false -- Çoğu hilede otomatik blip açılıyor bu özellik ile yakalaya bilirsiniz ama adminlerde bu loga düşer!
-Config.PlayerProtection = true -- Patlamaları engeller ama benzinliğe çarparlar ise bir etki olmaz.
-Config.AntiSpeedHack = false -- Speed Hack Açanları Yakalar Tavsiye Edilmez Sorun Çıkarma İhtimali Var.
-Config.AntiPed = true -- Tüm Pedleri Engeller Black Listte Olmasına gerek kalmaz.
-Config.MenuKoruma = false  -- Hile Menülerinin %90 Unu Engeller. detaylı kurulum yapılması gerekmektedir.
-Config.Explosions = true -- Oyuncuların Patlamamalarını Sağlar.
-Config.ResourceLength = 35 -- Eğer SC ismi 16 dan uzun ise o kullanıcıyı kickler.
-Config.CheckTimes = 3000 -- Hilenin spawn ettiği tankları helikopterleri vs şeylerin silme süresi ne kadar az olursa anti cheatin ms değeri o kadar artar. Örnek "3000 = 0.30 Civarı MS ekler"
-Config.ExCheckTimes = 2000 -- Hilenin patlama yaptığında veya illegal birşey yaptığını 3 saniyede yakalar yani her 3 saniyede 1 check atar eğer düşürürseniz ms değerleri artar.
+Config.LogWebhook = -- seu webhook
+Config.AntiCheat = true 
+Config.AntiGodmode = false 
+Config.AntiSpectate = true 
+Config.AcStopProtection = true 
+Config.ResourceStartCheck = true 
+Config.AntiBlips = false 
+Config.PlayerProtection = true 
+Config.AntiSpeedHack = false 
+Config.AntiPed = true 
+Config.MenuKoruma = false  
+Config.Explosions = true 
+Config.ResourceLength = 35 
+Config.CheckTimes = 3000 
+Config.ExCheckTimes = 2000 
 
--- Tuş Koruması
 
-Config.AntiKey = true -- Yasaklı Tuşa Basar İse Loga Düşecektir
-Config.BlacklistedKeys = {162, 121, 178} -- İsterseniz Burdan Ekleye Yasaklı Tuş Bilersiniz xD https://docs.fivem.net/game-references/controls/
 
---  Blacklist Komut
+Config.AntiKey = true 
+Config.BlacklistedKeys = {162, 121, 178}
+
+
 
 Config.AntiBlacklistedCmds = true -- Eğer f8 de black list kelime geçer ise ss alıp kick atar!
 
---  Blacklist Silah
 
-Config.KaraListeSilahHepSil = true -- Eğer true ise black list silah alınca üstündeki tüm silahlar silinir false ise silinmez. Aşşağıdaki config ayarı true ise sadece blacklist silahı siler.
-Config.KaraListeSilah = true -- blacklistteki blacklist silahları siler!
-Config.KaraListeSilahKick = false -- Eğer black listte bulunan silahı alır ise kick atar açmanızı pek önermeyiz.
+
+Config.KaraListeSilahHepSil = true
+Config.KaraListeSilah = true 
+Config.KaraListeSilahKick = false 
 Config.BlacklistedWeapons = {
     "WEAPON_MACHETE",
     "weapon_dagger",
