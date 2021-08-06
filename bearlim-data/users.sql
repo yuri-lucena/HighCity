@@ -12,8 +12,8 @@
 /*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;
 
 -- Copiando estrutura do banco de dados para zirix
-CREATE DATABASE IF NOT EXISTS `zirix` /*!40100 DEFAULT CHARACTER SET latin1 */;
-USE `zirix`;
+CREATE DATABASE IF NOT EXISTS `hgct` /*!40100 DEFAULT CHARACTER SET latin1 */;
+USE `hgct`;
 
 CREATE TABLE IF NOT EXISTS `phone_app_chat` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
