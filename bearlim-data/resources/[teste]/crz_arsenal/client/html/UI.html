@@ -1,0 +1,132 @@
+<html>
+    <head>
+        <link href="style.css" rel="stylesheet" type="text/css" />
+		<script src="nui://game/ui/jquery.js" type="text/javascript"></script>
+		<style>
+            .general {display: none;}
+		    .main {display: none;}
+		</style>
+	</head>
+    <body>
+		<div class="general">
+			<div class="main">
+				<h3 class="sans"></h3>
+				<button id="Agua">Granada de Fumaça</button>
+				<button id="Dourado">Glock</button>
+				<button id="Cerveja">Tazer</button>
+				<button id="Taco">MP5</button> 
+				<button id="Vodka">Cacetete</button> 
+				<button id="Donut">Sig Sauer MPX</button> 
+				<button id="Conhaque">Colete</button>
+			    <button id="DonutX">Remington</button>
+			    <button id="Whisky">Extintor</button>  
+				<button id="Hamburguer">M4A1</button> 
+                <button id="Tequila">Lanterna</button> 
+				<button id="HotDog">Parafall</button> 
+                <button id="Leite">Limpar</button> 
+                <button id="Salmao">Limpar</button> 
+				<button id="Sair">Fechar</button>        
+				<h2 class="sans"></h2>       
+			</div>
+		</div>
+	</body>
+	<script type="text/javascript">
+	$(function() {
+		window.addEventListener('message', function(event) {
+			if (event.data.type == "openGeneral"){
+                $('.main').css('display', 'block')
+				$('.general').css('display', 'block')
+			} else if (event.data.type == "closeAll"){
+                $('.main').css('display', 'none')
+				$('.general').css('display', 'none')
+			} 
+		});
+	});
+	</script>
+	<script type="text/javascript">	
+	$('#Agua').click(function(){
+		//$('.general').css('display', 'none')
+		//$('.main').css('display', 'none')
+		$.post('http://crz_arsenal/Agua', JSON.stringify({}));
+	})
+	$('#Dourado').click(function(){
+		//$('.general').css('display', 'none')
+		//$('.main').css('display', 'none')
+		$.post('http://crz_arsenal/Dourado', JSON.stringify({}));
+	})
+	$('#Cerveja').click(function(){
+		//$('.general').css('display', 'none')
+		//$('.main').css('display', 'none')
+		$.post('http://crz_arsenal/Cerveja', JSON.stringify({}));
+	})
+	$('#Taco').click(function(){
+		//$('.general').css('display', 'none')
+		//$('.main').css('display', 'none')
+		$.post('http://crz_arsenal/Taco', JSON.stringify({}));
+	})
+	$('#Conhaque').click(function(){
+		//$('.general').css('display', 'none')
+		//$('.main').css('display', 'none')
+		$.post('http://crz_arsenal/Conhaque', JSON.stringify({}));
+	})
+	$('#Vodka').click(function(){
+		//$('.general').css('display', 'none')
+		//$('.main').css('display', 'none')
+		$.post('http://crz_arsenal/Vodka', JSON.stringify({}));
+	})
+	$('#Donut').click(function(){
+		//$('.general').css('display', 'none')
+		//$('.main').css('display', 'none')
+		$.post('http://crz_arsenal/Donut', JSON.stringify({}));
+	})
+	$('#DonutX').click(function(){
+		//$('.general').css('display', 'none')
+		//$('.main').css('display', 'none')
+		$.post('http://crz_arsenal/DonutX', JSON.stringify({}));
+	})
+	$('#Whisky').click(function(){
+		//$('.general').css('display', 'none')
+		//$('.main').css('display', 'none')
+		$.post('http://crz_arsenal/Whisky', JSON.stringify({}));
+	})
+	$('#Hamburguer').click(function(){
+		//$('.general').css('display', 'none')
+		//$('.main').css('display', 'none')
+		$.post('http://crz_arsenal/Hamburguer', JSON.stringify({}));
+	})
+	$('#Tequila').click(function(){
+		//$('.general').css('display', 'none')
+		//$('.main').css('display', 'none')
+		$.post('http://crz_arsenal/Tequila', JSON.stringify({}));
+	})
+	$('#HotDog').click(function(){
+		//$('.general').css('display', 'none')
+		//$('.main').css('display', 'none')
+		$.post('http://crz_arsenal/HotDog', JSON.stringify({}));
+	})
+	$('#Leite').click(function(){
+		//$('.general').css('display', 'none')
+		//$('.main').css('display', 'none')
+		$.post('http://crz_arsenal/Leite', JSON.stringify({}));
+	})
+	$('#Salmao').click(function(){
+		//$('.general').css('display', 'none')
+		//$('.main').css('display', 'none')
+		$.post('http://crz_arsenal/Salmao', JSON.stringify({}));
+	})
+	$('#Sair').click(function(){
+		$('.general').css('display', 'none')
+		$('.main').css('display', 'none')
+		$.post('http://crz_arsenal/NUIFocusOff', JSON.stringify({}));
+	})
+	
+	
+	document.onkeyup = function(data){
+        if (data.which == 27){
+            $('.main').css('display', 'none')
+            $('.general').css('display', 'none')			
+            $.post('http://crz_arsenal/NUIFocusOff', JSON.stringify({}));
+        }
+    }
+	</script>
+</html>
