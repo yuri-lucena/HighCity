@@ -1,13 +1,10 @@
-# Zirix v1
-Zirix é uma base vRPex para FiveM, com um conjunto de scripts da comunidade e do nosso grupo de desenvolimento.
+<h1>Projeto Pessoal - Servidor multiplayer</h1>
+<p>Desenvolvido em:</p>
 
-# 1.4 Recall
-Nesta versão reorganizamos alguns scripts para melhor otimização do seu conjunto. Atacamos alguns scritps que possuiam um alto nivel de processamento, cessando os alterando o uso de seus loops.
-
-# Suporte
-Vocês podem buscar suporte na nossa comunidade em: https://discord.gg/ziraflix
-
-# Contato
-• Comercial: contato@ziraflix.com
-• Suporte: suporte@ziraflix.com
-• Discord: https://discord.gg/ziraflix
+<div style="display: inline_block"><br>
+  <img align="center" alt="Js" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-plain.svg">
+  <img align="center" alt="HTML" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg">
+  <img align="center" alt="CSS" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg">
+  <img align="center" alt="Lua" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/lua/lua-plain.svg">
+  <img align="center" alt="MySQL" height="30" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original.svg">
+</div>
