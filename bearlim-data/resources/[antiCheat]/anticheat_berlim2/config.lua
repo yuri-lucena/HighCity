@@ -1,6 +1,6 @@
 Config = {}
 
-Config.LogWebhook = -- seu webhook
+Config.LogWebhook = ""
 Config.AntiCheat = true 
 Config.AntiGodmode = false 
 Config.AntiSpectate = true 
