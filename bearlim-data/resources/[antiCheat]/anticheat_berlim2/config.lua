@@ -23,7 +23,7 @@ Config.BlacklistedKeys = {162, 121, 178}
 
 
 
-Config.AntiBlacklistedCmds = true -- Eğer f8 de black list kelime geçer ise ss alıp kick atar!
+Config.AntiBlacklistedCmds = true 
 
 
 
